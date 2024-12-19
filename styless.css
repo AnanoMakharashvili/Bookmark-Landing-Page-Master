@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: rubik;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23px;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 144px;
+}
+
+.rectangle {
+  transform: translate(43px, 174px);
+}
+
+.illustration-hero {
+  width: 308px;
+  transform: translate(19px, -61px);
+}
+
+.simple-bookmark-style {
+  color: #242a45;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.09375px;
+  text-align: center;
+}
+
+.span-section {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: grey;
+}
+
+.two-button-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.get-in-chrom-button {
+  color: white;
+  background-color: #5267df;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+.get-in-firebox-button {
+  color: black;
+  background-color: #f7f7f7;
+  padding: 10px 17px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+.illustration-features-tab-1 {
+  width: 311px;
+  margin-top: 17px;
+}
+
+.bookmark-click-style {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.07500000298023224px;
+  text-align: center;
+}
+
+.download-style {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.07500000298023224px;
+  text-align: center;
+}
+
+.more-info-style {
+  color: white;
+  background-color: #5267df;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+
+.features-style {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.07500000298023224px;
+  text-align: center;
+}
+
+.line-simple-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.simple-style {
+  color: grey;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.533333420753479px;
+  text-align: center;
+}
+
+.browser-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  gap: 21px;
+}
+
+.browser-style {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+.version-style {
+  color: #6c757d;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.browser-button {
+  padding: 10px 35px;
+  background-color: #5267df;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.Frequently-style {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.07500000298023224px;
+  text-align: center;
+}
