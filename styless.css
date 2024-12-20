@@ -185,3 +185,91 @@ header {
   letter-spacing: -0.07500000298023224px;
   text-align: center;
 }
+
+.arrow-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+  margin-top: 25px;
+}
+
+.info-arrow-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.icon-arrow-one {
+  margin-left: 140px;
+}
+
+.icon-arrow-two {
+  margin-left: 27px;
+}
+
+.icon-arrow-three {
+  margin-left: 120px;
+}
+
+.email-contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5267df;
+  color: #ffffff;
+  padding: 30px;
+  gap: 17px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.joined-style {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 4.615385055541992px;
+  text-align: center;
+}
+
+.stay-up-to-date-style {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.07500000298023224px;
+  text-align: center;
+}
+
+#email {
+  padding: 10px 77px;
+}
+
+.contact-us-style {
+  background-color: #fa5959;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  padding: 10px 116px;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  display: none;
+}
+
+footer {
+  background-color: #242a45;
+  color: white;
+}
