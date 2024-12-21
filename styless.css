@@ -13,6 +13,7 @@ main {
   align-items: center;
   padding: 23px;
   overflow: hidden;
+  gap: 16px;
 }
 
 header {
@@ -272,4 +273,28 @@ header {
 footer {
   background-color: #242a45;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+  padding: 32px;
+  width: 100%;
+}
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1.7307690382003784px;
+  text-align: right;
+}
+.icon-info-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
