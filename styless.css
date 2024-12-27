@@ -23,6 +23,14 @@ header {
   gap: 144px;
 }
 
+.icon-hamburger {
+  display: block;
+}
+
+.header-one {
+  display: none;
+}
+
 .rectangle {
   transform: translate(43px, 174px);
 }
@@ -297,4 +305,98 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 40px;
+}
+
+@media (min-width: 1024px) {
+  main {
+    overflow: hidden;
+  }
+  header {
+    gap: 537px;
+  }
+  .icon-hamburger {
+    display: none;
+  }
+  .header-one {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    gap: 44px;
+  }
+
+  .info-section {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    text-align: right;
+  }
+
+  .login-style {
+    color: white;
+    background-color: #fa5959;
+    padding: 12px 32px;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    cursor: pointer;
+  }
+
+  .simple-bookmark-and-illustration-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .rectangle {
+    width: 600px;
+  }
+
+  .illustration-hero {
+    width: 537px;
+    transform: translate(19px, -220px);
+  }
+
+  .simple-bookmark-style {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+  }
+
+  .simple-span-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .email-contact-section {
+    width: 100%;
+  }
+
+  .form-container {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .contact-us-style {
+    padding: 10px 24px;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+
+  .pricing-section {
+    flex-direction: row;
+  }
+
+  .icon-info-style {
+    margin-left: 449px;
+  }
 }
