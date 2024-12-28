@@ -49,6 +49,13 @@ header {
   text-align: center;
 }
 
+.illustration-features-tab-1-bookmark-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
 .span-section {
   font-size: 15px;
   font-weight: 400;
@@ -95,6 +102,13 @@ header {
   margin-top: 17px;
 }
 
+.button-bookmark-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
 .bookmark-click-style {
   font-size: 24px;
   font-weight: 500;
@@ -139,6 +153,17 @@ header {
   gap: 13px;
 }
 
+.line-two-style {
+  display: none;
+}
+
+.line-speedy-easy-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
 .simple-style {
   color: grey;
   font-size: 16px;
@@ -149,6 +174,23 @@ header {
 }
 
 .browser-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  gap: 21px;
+}
+.browser-section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  gap: 21px;
+}
+
+.browser-section-two {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -375,6 +417,82 @@ footer {
     gap: 10px;
   }
 
+  .pricing-section {
+    flex-direction: row;
+  }
+
+  .icon-info-style {
+    margin-left: 449px;
+  }
+
+  .features-style {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+  }
+
+  .span-section {
+    width: 540px;
+    height: 84px;
+    top: 68px;
+    gap: 0px;
+    opacity: 0.5px;
+  }
+
+  .line-style {
+    display: none;
+  }
+
+  .line-simple-section {
+    flex-direction: row;
+    gap: 90px;
+  }
+
+  .line-two-style {
+    display: block;
+  }
+
+  .illustration-features-tab-1 {
+    width: 536px;
+  }
+
+  .illustration-features-tab-1-bookmark-section {
+    flex-direction: row;
+    gap: 125px;
+  }
+
+  .download-style {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+  }
+
+  .Frequently-style {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    margin-top: 65px;
+  }
+  .browser-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+  }
+
+  .browser-section-one {
+    transform: translate(10px, 31px);
+  }
+
+  .browser-section-two {
+    transform: translate(10px, 60px);
+  }
+
   .email-contact-section {
     width: 100%;
   }
@@ -390,13 +508,5 @@ footer {
 
   footer {
     flex-direction: row;
-  }
-
-  .pricing-section {
-    flex-direction: row;
-  }
-
-  .icon-info-style {
-    margin-left: 449px;
   }
 }
