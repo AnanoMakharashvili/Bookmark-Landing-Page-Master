@@ -274,6 +274,19 @@ header {
   gap: 17px;
 }
 
+#error-message {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 11.85px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  background-color: #fa5959;
+  color: white;
+  padding: 8px;
+  display: none;
+}
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -495,6 +508,11 @@ footer {
 
   .email-contact-section {
     width: 100%;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .form-container {
