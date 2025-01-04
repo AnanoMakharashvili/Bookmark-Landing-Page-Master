@@ -146,6 +146,15 @@ header {
   text-align: center;
 }
 
+.line-style-one {
+  display: none;
+}
+
+.arrow-paragraph-style {
+  width: 311px;
+  display: none;
+}
+
 .line-simple-section {
   display: flex;
   flex-direction: column;
@@ -458,6 +467,10 @@ footer {
     display: none;
   }
 
+  .line-style-one {
+    display: block;
+  }
+
   .line-simple-section {
     flex-direction: row;
     gap: 90px;
@@ -465,6 +478,11 @@ footer {
 
   .line-two-style {
     display: block;
+  }
+
+  .arrow-paragraph-style {
+    width: 540px;
+    display: none;
   }
 
   .illustration-features-tab-1 {

@@ -2,7 +2,9 @@ const inputEmail = document.getElementById("email");
 const errorMessage = document.getElementById("error-message");
 const getButton = document.getElementById("contact-us-style");
 const getHeader = document.getElementById("header-one");
-console.log(getButton);
+const buttonArrow = document.getElementById("icon-arrow-two");
+const getAnswer = document.getElementById("arrow-paragraph-style");
+console.log(buttonArrow);
 
 let inputText = "";
 
@@ -18,6 +20,14 @@ getButton.addEventListener("click", () => {
   }
 });
 getHeader.style.display = "flex";
+
+buttonArrow.addEventListener("click", () => {
+  if (getAnswer.style.display === "block") {
+    getAnswer.style.display = "none";
+  } else {
+    getAnswer.style.display = "block";
+  }
+});
 
 const validateEmail = (email) => {
   return /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
