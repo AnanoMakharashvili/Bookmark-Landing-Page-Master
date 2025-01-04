@@ -252,6 +252,7 @@ header {
   align-items: center;
   gap: 33px;
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .info-arrow-style {

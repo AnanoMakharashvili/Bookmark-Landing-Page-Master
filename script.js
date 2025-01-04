@@ -4,7 +4,6 @@ const getButton = document.getElementById("contact-us-style");
 const getHeader = document.getElementById("header-one");
 const buttonArrow = document.getElementById("icon-arrow-two");
 const getAnswer = document.getElementById("arrow-paragraph-style");
-console.log(buttonArrow);
 
 let inputText = "";
 
