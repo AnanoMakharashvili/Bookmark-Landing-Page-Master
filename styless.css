@@ -451,7 +451,21 @@ footer {
   }
 
   .icon-info-style {
-    margin-left: 449px;
+    margin-left: 1000px;
+  }
+
+  .get-in-chrom-button:hover {
+    background-color: white;
+    color: #5267df;
+    border: 2px solid #5267df;
+    cursor: pointer;
+  }
+
+  .get-in-firebox-button:hover {
+    background-color: white;
+    color: #242a45;
+    border: 2px solid #242a45;
+    cursor: pointer;
   }
 
   .features-style {
@@ -460,6 +474,11 @@ footer {
     line-height: 52px;
     letter-spacing: -0.10000000149011612px;
     text-align: center;
+  }
+
+  .simple-style:hover {
+    color: red;
+    cursor: pointer;
   }
 
   .span-section {
@@ -555,7 +574,21 @@ footer {
     color: #fa5959;
     border: 2px solid #fa5959;
   }
+
+  .first-features:hover {
+    color: #fa5959;
+  }
+
+  .second-pricing:hover {
+    color: #fa5959;
+  }
+
+  .third-contact:hover {
+    color: #fa5959;
+  }
+
   footer {
     flex-direction: row;
+    cursor: pointer;
   }
 }
