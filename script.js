@@ -18,7 +18,16 @@ getButton.addEventListener("click", () => {
     errorMessage.style.display = "block";
   }
 });
-getHeader.style.display = "flex";
+
+const adjustHeaderDisplay = () => {
+  if (window.innerWidth > 1024) {
+    getHeader.style.display = "flex";
+  } else {
+    getHeader.style.display = "none";
+  }
+};
+
+window.addEventListener("resize", adjustHeaderDisplay);
 
 buttonArrow.addEventListener("click", () => {
   if (getAnswer.style.display === "block") {

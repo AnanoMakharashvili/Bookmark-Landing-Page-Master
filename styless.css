@@ -411,6 +411,12 @@ footer {
     cursor: pointer;
   }
 
+  .login-style:hover {
+    background-color: white;
+    color: #fa5959;
+    border: 2px solid #fa5959;
+  }
+
   .simple-bookmark-and-illustration-section {
     display: flex;
     flex-direction: row-reverse;
@@ -541,8 +547,14 @@ footer {
 
   .contact-us-style {
     padding: 10px 24px;
+    cursor: pointer;
   }
 
+  .contact-us-style:hover {
+    background-color: white;
+    color: #fa5959;
+    border: 2px solid #fa5959;
+  }
   footer {
     flex-direction: row;
   }
