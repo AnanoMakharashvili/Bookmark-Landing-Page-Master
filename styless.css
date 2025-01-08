@@ -97,6 +97,20 @@ header {
   text-align: center;
 }
 
+.get-in-chrom-button:hover {
+  background-color: white;
+  color: #5267df;
+  border: 2px solid #5267df;
+  cursor: pointer;
+}
+
+.get-in-firebox-button:hover {
+  background-color: white;
+  color: #242a45;
+  border: 2px solid #242a45;
+  cursor: pointer;
+}
+
 .illustration-features-tab-1 {
   width: 311px;
   margin-top: 17px;
@@ -144,6 +158,11 @@ header {
   line-height: 52px;
   letter-spacing: -0.07500000298023224px;
   text-align: center;
+}
+
+.simple-style:hover {
+  color: red;
+  cursor: pointer;
 }
 
 .line-style-one {
@@ -352,6 +371,7 @@ footer {
   gap: 27px;
   padding: 32px;
   width: 100%;
+  cursor: pointer;
 }
 
 .pricing-section {
@@ -370,6 +390,24 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 40px;
+}
+
+.contact-us-style:hover {
+  background-color: white;
+  color: #fa5959;
+  border: 2px solid #fa5959;
+}
+
+.first-features:hover {
+  color: #fa5959;
+}
+
+.second-pricing:hover {
+  color: #fa5959;
+}
+
+.third-contact:hover {
+  color: #fa5959;
 }
 
 @media (min-width: 1024px) {
