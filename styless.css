@@ -75,7 +75,7 @@ header {
   color: white;
   background-color: #5267df;
   padding: 10px 16px;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 500;
@@ -88,7 +88,7 @@ header {
   color: black;
   background-color: #f7f7f7;
   padding: 10px 17px;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 500;
@@ -253,8 +253,15 @@ header {
   line-height: 28px;
   letter-spacing: 0.25px;
   text-align: center;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.browser-button:hover {
+  background-color: #f7f7f7;
+  color: #5267df;
+  border: 2px solid #5267df;
 }
 
 .Frequently-style {
@@ -354,7 +361,7 @@ header {
   letter-spacing: 0.25px;
   text-align: center;
   padding: 10px 116px;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 5px;
 }
 
@@ -425,6 +432,7 @@ footer {
     flex-direction: row;
     align-items: center;
     gap: 44px;
+    cursor: pointer;
   }
 
   .info-section {
@@ -435,12 +443,16 @@ footer {
     text-align: right;
   }
 
+  .info-section:hover {
+    color: #fa5959;
+  }
+
   .login-style {
     color: white;
     background-color: #fa5959;
     padding: 12px 32px;
     border-radius: 5px;
-    border: none;
+    border: 2px solid transparent;
     font-size: 13px;
     font-weight: 500;
     line-height: 17px;
@@ -623,6 +635,14 @@ footer {
 
   .third-contact:hover {
     color: #fa5959;
+  }
+
+  .icon-facebook:hover {
+    background-color: #fa5959;
+  }
+
+  .icon-twitter:hover {
+    background-color: #fa5959;
   }
 
   footer {
