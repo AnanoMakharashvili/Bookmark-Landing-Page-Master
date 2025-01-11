@@ -4,6 +4,9 @@ const getButton = document.getElementById("contact-us-style");
 const getHeader = document.getElementById("header-one");
 const buttonArrow = document.getElementById("icon-arrow-two");
 const getAnswer = document.getElementById("arrow-paragraph-style");
+const modal = document.getElementById("menuModal");
+const openModalButton = document.getElementById("icon-hamburger");
+const closeModalButton = document.getElementById("close-modal");
 
 let inputText = "";
 
@@ -35,6 +38,14 @@ buttonArrow.addEventListener("click", () => {
   } else {
     getAnswer.style.display = "block";
   }
+});
+
+openModalButton.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+closeModalButton.addEventListener("click", () => {
+  modal.style.display = "none";
 });
 
 const validateEmail = (email) => {
